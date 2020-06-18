@@ -7,7 +7,7 @@
     
 
     <title>
-      三轩茶屋 
+      HelloWorld | 三轩茶屋 
     </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -16,11 +16,13 @@
     
     
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="三轩茶屋">
-<meta property="og:url" content="http://yoursite.com/index.html">
+    <meta property="og:type" content="article">
+<meta property="og:title" content="HelloWorld | 三轩茶屋">
+<meta property="og:url" content="http://yoursite.com/2020/06/18/HelloWorld/index.html">
 <meta property="og:site_name" content="三轩茶屋">
 <meta property="og:locale" content="zh">
+<meta property="article:published_time" content="2020-06-18T05:37:00.000Z">
+<meta property="article:modified_time" content="2020-06-18T05:37:00.129Z">
 <meta property="article:author" content="Xue Haotian">
 <meta name="twitter:card" content="summary">
     
@@ -50,8 +52,8 @@
     </span>
 
     
- 
-<header class="panel-cover">
+
+<header class="panel-cover panel-cover--collapsed">
 
 
   <div class="panel-main">
@@ -155,64 +157,44 @@ classes that you can use:
         <div class="content-wrapper__inner entry">
             
 
+<article class="post-container post-container--single">
 
-   <!-- do nothing -->
-
-
-<div class="main-post-list">
-    <ol class="post-list">
+  <header class="post-header">
     
-    
-    <li>
+    <h1 class="post-title">HelloWorld</h1>
 
-      <h2 class="post-list__post-title post-title">
-        <a href="/2020/06/18/HelloWorld/" title="link to HelloWorld">HelloWorld</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2020-06-18" class="post-list__meta--date date">2020-06-18</time> 
-      </div>
-
-      <div class="excerpt">
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title">
-        <a href="/2020/06/18/hello-world/" title="link to Hello World">Hello World</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2020-06-18" class="post-list__meta--date date">2020-06-18</time> 
-      </div>
-
-      <div class="excerpt">
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-  </ol>
-
-  <hr class="post-list__divider " />
-
-<nav class="pagination" role="navigation">
     
 
-    <span class="pagination__page-number"> 1 / 1</span>
+    <div class="post-meta">
+      <time datetime="2020-06-18" class="post-meta__date date">2020-06-18</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+
+          
+
+      </span>
+    </div>
     
     
-</nav>
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    
+  </section>
+
+  <section class="post-comments">
+
+    <!-- 将评论系统（例如Disqus、多说、友言、畅言等）提供的代码片段粘贴在这里 -->
+    
+</section>
 
 
-</div>
+</article>
+
+
             <footer class="footer">
 
     <span class="footer__copyright">&copy; 2020-2020. | 由<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno" target="_blank" rel="noopener">Huno</a></span>
@@ -240,6 +222,19 @@ classes that you can use:
 
 
     
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
     
     
     <!--kill ie6 -->
