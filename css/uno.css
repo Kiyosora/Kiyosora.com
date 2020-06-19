@@ -1189,6 +1189,16 @@ hr {
   color: #cccccc;
   -webkit-font-smoothing: antialiased; }
 
+.panel-cover-front {
+  display: block;
+  position: fixed;
+  z-index: 900;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  background: url(../images/eki.jpg) top left no-repeat #666666;
+  background-size: cover; }
+
 .panel-cover {
   display: block;
   position: fixed;
@@ -1196,7 +1206,7 @@ hr {
   width: 100%;
   max-width: none;
   height: 100%;
-  background: url(../images/background-cover.jpg) top left no-repeat #666666;
+  background: url(../images/machi.jpg) top left no-repeat #666666;
   background-size: cover; }
 
 .panel-cover--collapsed {
@@ -1677,7 +1687,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin: 0 0 10px;
-  border-spacing: 0; 
+  border-spacing: 0;
   border: 1px solid #aaa;
 }
 
@@ -1699,5 +1709,5 @@ th, td {
   border: none;
 }
 pre {
-  font-family: 
+  font-family:
 }
