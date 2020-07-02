@@ -1086,6 +1086,12 @@ code {
   width: 940px;
   margin: 0 auto; }
 
+.bgm-wrapper {
+  position: absolute;
+  z-index: 999;
+  right: 0px;
+  bottom: 0px; }
+
 .content-wrapper {
   z-index: 800;
   width: 68%;
