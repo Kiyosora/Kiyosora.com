@@ -175,7 +175,7 @@ body {
   height: 100%;
 }
 body {
-  background: var(--body-bg-color);
+  background: rgba(235,255,150,0.1);
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
@@ -974,7 +974,7 @@ pre .javascript .function {
   border-bottom: none;
   color: var(--brand-color);
   display: inline-block;
-  line-height: 1.375em;
+  line-height: 3em;
   padding: 0 40px;
   position: relative;
 }
@@ -983,7 +983,7 @@ pre .javascript .function {
 }
 .site-title {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1.375em;
+  font-size: 3em;
   font-weight: normal;
   margin: 0;
 }
@@ -1102,7 +1102,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .sidebar {
-  background: #222;
+  background: #0a0f0a;
   bottom: 0;
   box-shadow: inset 0 2px 6px #000;
   position: fixed;
@@ -1161,7 +1161,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffffd5;
+  background: #fffe5d;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2177,9 +2177,12 @@ hr {
   }
 }
 .footer {
-  background: var(--content-bg-color);
+  background: url("/images/21.jpg");
+  background-size: 100%;
+  background-position: bottom -100px center;
+  background-repeat: no-repeat;
   color: var(--text-color);
-  padding: 10px 0;
+  padding: 0;
 }
 .footer-inner {
   text-align: left;
@@ -2195,12 +2198,15 @@ hr {
   bottom: 0px;
 }
 .header {
-  background: var(--content-bg-color);
+  background: url("/images/21.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .header-inner {
   align-items: center;
   display: flex;
-  padding: 20px 0;
+  padding: 120px 0;
 }
 @media (max-width: 767px) {
   .header-inner {
@@ -2227,8 +2233,9 @@ hr {
 .logo-line-after {
   display: block;
   margin: 0 auto;
+  padding: 4px;
   overflow: hidden;
-  width: 75%;
+  width: 100%;
 }
 @media (max-width: 767px) {
   .logo-line-before,
@@ -2240,7 +2247,7 @@ hr {
 .logo-line-after i {
   background: var(--brand-color);
   display: block;
-  height: 2px;
+  height: 3px;
   position: relative;
 }
 .use-motion .logo-line-before i {
