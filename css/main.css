@@ -972,7 +972,7 @@ pre .javascript .function {
 }
 .brand {
   border-bottom: none;
-  color: var(--brand-color);
+  color: #072107;
   display: inline-block;
   line-height: 3em;
   padding: 0 40px;
@@ -986,6 +986,7 @@ pre .javascript .function {
   font-size: 3em;
   font-weight: normal;
   margin: 0;
+  left: 11%;
 }
 .site-subtitle {
   color: #999;
@@ -1161,7 +1162,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e38693;
+  background: #ffcfa7;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1251,11 +1252,11 @@ pre .javascript .function {
   color: #f5f5f5;
 }
 .sidebar-nav .sidebar-nav-active {
-  border-bottom-color: #87daff;
-  color: #87daff;
+  border-bottom-color: #edf990;
+  color: #edf990;
 }
 .sidebar-nav .sidebar-nav-active:hover {
-  color: #87daff;
+  color: #edf990;
 }
 .sidebar-panel {
   display: none;
@@ -1283,7 +1284,7 @@ pre .javascript .function {
   }
 }
 .sidebar-toggle:hover .toggle-line {
-  background: #87daff;
+  background: #edf990;
 }
 .post-toc {
   font-size: 0.875em;
@@ -1322,14 +1323,14 @@ pre .javascript .function {
   display: block;
 }
 .post-toc .nav .active > a {
-  border-bottom-color: #87daff;
-  color: #87daff;
+  border-bottom-color: #edf990;
+  color: #edf990;
 }
 .post-toc .nav .active-current > a {
-  color: #87daff;
+  color: #edf990;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #87daff;
+  color: #edf990;
 }
 .site-state {
   display: flex;
@@ -1492,7 +1493,7 @@ pre .javascript .function {
   display: none;
 }
 .back-to-top:hover {
-  color: #87daff;
+  color: #edf990;
 }
 .back-to-top.back-to-top-on {
   bottom: 19px;
@@ -2228,6 +2229,7 @@ hr {
 }
 .site-meta .site-title {
   font-weight: bolder;
+  left: 11%;
 }
 .logo-line-before,
 .logo-line-after {
@@ -2235,7 +2237,7 @@ hr {
   margin: 0 auto;
   padding: 4px;
   overflow: hidden;
-  width: 100%;
+  width: 125%;
 }
 @media (max-width: 767px) {
   .logo-line-before,
