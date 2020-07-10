@@ -4,7 +4,7 @@
 
 # Site
 title: 三轩茶屋
-subtitle: '欢迎来到 薛小班的一亩三分地！ ヘ(￣ω￣ヘ)'
+subtitle: '欢迎来到我的一亩三分地！ ヘ(￣ω￣ヘ)'
 description: ''
 keywords:
 author: Xue Haotian
@@ -101,7 +101,7 @@ live2d:
   pluginRootPath: live2dw/
   pluginJsPath: lib/
   pluginModelPath: assets/
-  tagMode: false
+  tagMode: true
   debug: false
   model:
     use: live2d-widget-model-hijiki
@@ -110,6 +110,7 @@ live2d:
     width: 225
     height: 450
     hOffset: 50
+    vOffset: -50
   mobile:
     show: false
   react:
@@ -124,5 +125,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Kiyosora/Kiyosora.github.io.git
+  repo: https://github.com/Kiyosora/Kiyosora.com.git
   branch: master
